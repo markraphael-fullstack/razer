@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Monteserrat";
+  src: local("Monteserrat"),
+    url(./assets/fonts/Montseratt/Montserrat-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "monteserrat-light";
+  src: local("Monteserrat"),
+    url(./assets/fonts/Montseratt/montserrat-light_1.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "monteserrat-medium";
+  src: local("Monteserrat"),
+    url(./assets/fonts/Montseratt/Montserrat-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "monteserrat-bold";
+  src: local("Monteserrat"),
+    url(./assets/fonts/Montseratt/Montserrat-Bold_1.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "monteserrat-extrabold";
+  src: local("Monteserrat"),
+    url(./assets/fonts/Montseratt/Montserrat-ExtraBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "monteserrat-black";
+  src: local("Monteserrat"),
+    url(./assets/fonts/Montseratt/Montserrat-Black.otf) format("opentype");
+}

@@ -1,0 +1,62 @@
+.nav-bar-container {
+  background-color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.nav-bar {
+  max-width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+}
+
+.logo {
+  width: 10em;
+}
+
+.navigations {
+  ul {
+    color: white;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    font-family: Monteserrat;
+  }
+
+  li {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 1px;
+  }
+}
+
+.drop-down {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  svg {
+    width: 23px;
+    height: 23px;
+  }
+}
+
+.buy-button {
+  text-decoration: none;
+  background-color: #00ff00;
+  color: black;
+  font-weight: 800;
+  border-radius: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+}

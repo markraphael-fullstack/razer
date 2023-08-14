@@ -1,0 +1,49 @@
+.hero-section {
+  background-image: url("../../assets/images/razer-nari-hero-desktop-wireless-gaming-headset CL.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.hero-container {
+  max-width: 60%;
+  margin: auto;
+  padding-top: 6%;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-content {
+  width: 50%;
+
+  h1 {
+    font-size: 50px;
+    font-family: monteserrat-bold;
+    line-height: 55px;
+  }
+  p {
+    font-family: monteserrat-light;
+    margin-top: 10px;
+    font-size: 1em;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.right-content {
+  border: 2px dotted red;
+  img {
+    width: 20em;
+    border: 2px dotted blue;
+  }
+}
+
+.razer-chroma {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  img {
+    width: 6em;
+  }
+}
