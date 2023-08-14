@@ -1,7 +1,11 @@
 .hero-section {
   background-image: url("../../assets/images/razer-nari-hero-desktop-wireless-gaming-headset CL.jpg");
-  height: 100%;
+  width: 100vw;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  padding-bottom: 10px;
   color: white;
 }
 
@@ -12,6 +16,7 @@
   padding-bottom: 5%;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .left-content {
@@ -32,10 +37,13 @@
 }
 
 .right-content {
-  border: 2px dotted red;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
   img {
-    width: 20em;
-    border: 2px dotted blue;
+    width: 16em;
+    margin-bottom: 10;
   }
 }
 
